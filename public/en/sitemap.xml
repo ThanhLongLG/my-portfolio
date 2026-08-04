@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>http://localhost:1313/my-portfolio/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi-VN"
-                href="http://localhost:1313/vi/categories/"
+                href="http://localhost:1313/my-portfolio/vi/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/categories/"
+                href="http://localhost:1313/my-portfolio/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>http://localhost:1313/my-portfolio/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi-VN"
-                href="http://localhost:1313/vi/tags/"
+                href="http://localhost:1313/my-portfolio/vi/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/tags/"
+                href="http://localhost:1313/my-portfolio/en/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>http://localhost:1313/my-portfolio/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi-VN"
-                href="http://localhost:1313/vi/"
+                href="http://localhost:1313/my-portfolio/vi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:1313/en/"
+                href="http://localhost:1313/my-portfolio/en/"
                 />
   </url>
 </urlset>
