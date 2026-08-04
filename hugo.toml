@@ -1,0 +1,30 @@
+baseURL = 'https://example.org/'
+title = 'Trần Thanh Long — Portfolio'
+defaultContentLanguage = 'vi'
+defaultContentLanguageInSubdir = true
+contentDir = 'themes/content'
+layoutDir = 'i18n/layouts'
+i18nDir = 'translations'
+staticDir = ['data/static', 'static']
+publishDir = 'public'
+
+[languages.vi]
+locale = 'vi-VN'
+label = 'Tiếng Việt'
+weight = 1
+title = 'Trần Thanh Long — Portfolio'
+
+[languages.vi.params]
+description = 'Portfolio và hành trình học tập của Trần Thanh Long.'
+
+[languages.en]
+locale = 'en-US'
+label = 'English'
+weight = 2
+title = 'Tran Thanh Long — Portfolio'
+
+[languages.en.params]
+description = 'Portfolio and learning journey of Tran Thanh Long.'
+
+[markup.goldmark.renderer]
+unsafe = true

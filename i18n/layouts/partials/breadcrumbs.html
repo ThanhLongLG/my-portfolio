@@ -1,0 +1,5 @@
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <a href="{{ .Site.Home.RelPermalink }}">{{ if eq .Site.Language.Lang "vi" }}Trang chủ{{ else }}Home{{ end }}</a>
+  {{ with .Parent }}{{ if not .IsHome }}<span>/</span><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}{{ end }}
+  <span>/</span><span>{{ .Title }}</span>
+</nav>

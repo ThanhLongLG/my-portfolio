@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{ partial "breadcrumbs.html" . }}
+<header class="page-header">
+  <span class="eyebrow">{{ if eq .Site.Language.Lang "vi" }}CHUYÊN MỤC{{ else }}SECTION{{ end }}</span>
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+</header>
+{{ with .Content }}<article class="content-card prose">{{ . }}</article>{{ end }}
+<div class="section-grid">
+  {{ range .Pages.ByWeight }}
+  <a class="section-card" href="{{ .RelPermalink }}">
+    <span class="section-index">{{ printf "%02d" .Weight }}</span>
+    <div>
+      <h2>{{ .Title }}</h2>
+      <p>{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 120 }}{{ end }}</p>
+    </div>
+    <span>→</span>
+  </a>
+  {{ end }}
+</div>
+{{ end }}

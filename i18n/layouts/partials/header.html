@@ -1,0 +1,21 @@
+<header class="site-header">
+  <nav class="wrap nav">
+    <a class="logo" href="{{ .Site.Home.RelPermalink }}"><span class="logo-dot"></span>Trần Thanh Long<span class="dim">.dev</span></a>
+    <div class="nav-links">
+      <a href="{{ .Site.Home.RelPermalink }}#about">{{ i18n "nav_about" }}</a>
+      <a href="{{ .Site.Home.RelPermalink }}#skills">{{ i18n "nav_skills" }}</a>
+      <a href="{{ .Site.Home.RelPermalink }}#projects">{{ i18n "nav_projects" }}</a>
+      <a href="{{ .Site.Home.RelPermalink }}#awards">{{ i18n "nav_awards" }}</a>
+      <a href="{{ .Site.Home.RelPermalink }}#contact">{{ i18n "nav_contact" }}</a>
+    </div>
+    <div class="nav-controls">
+      <div class="language-switcher" aria-label="{{ i18n "language_switcher" }}">
+        {{ range hugo.Sites }}
+        <a href="{{ .Home.RelPermalink }}" lang="{{ .Language.Lang }}"{{ if eq $.Site.Language.Lang .Language.Lang }} class="active" aria-current="page"{{ end }}>{{ upper .Language.Lang }}</a>
+        {{ end }}
+      </div>
+      <button class="theme-toggle" aria-label="{{ i18n "theme_toggle" }}">☼</button>
+      <button class="nav-toggle" aria-label="{{ i18n "menu_open" }}" aria-expanded="false">☰</button>
+    </div>
+  </nav>
+</header>

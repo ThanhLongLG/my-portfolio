@@ -1,0 +1,138 @@
+[nav_about]
+other = "About"
+[nav_skills]
+other = "Skills"
+[nav_projects]
+other = "Projects"
+[nav_awards]
+other = "Milestones"
+[nav_contact]
+other = "Contact"
+[language_switcher]
+other = "Choose language"
+[theme_toggle]
+other = "Toggle theme"
+[menu_open]
+other = "Open menu"
+[hero_eyebrow]
+other = "HELLO, I'M LONG"
+[hero_title]
+other = "Hi, I'm Tran"
+[hero_name]
+other = "Thanh Long."
+[roles]
+other = "Full-Stack Developer|.NET Developer|Backend Developer"
+[role_initial]
+other = "Full-Stack Developer"
+[hero_lead]
+other = "I build clear, useful web products on solid technical foundations — from the first idea to a polished experience."
+[view_projects]
+other = "View projects"
+[download_cv]
+other = "Download CV"
+[portrait_alt]
+other = "Portrait of Tran Thanh Long"
+[code_label]
+other = "building the future, one line at a time"
+[about_label]
+other = "ABOUT"
+[about_title]
+other = "A little"
+[about_title_accent]
+other = "about me."
+[about_p1]
+other = "I'm a developer who enjoys turning complex problems into simple, intuitive experiences. I care about both interface details and the systems working behind them."
+[about_p2]
+other = "I learn every day through personal projects, workshops, and the challenge of building products from the ground up."
+[base_label]
+other = "BASE"
+[base_value]
+other = "Vietnam"
+[focus_label]
+other = "FOCUS"
+[toolkit_label]
+other = "TOOLKIT"
+[skills_title]
+other = "My technical"
+[skills_title_accent]
+other = "arsenal."
+[work_label]
+other = "SELECTED WORK"
+[projects_title]
+other = "A few selected"
+[projects_title_accent]
+other = "projects."
+[project_portfolio]
+other = "A local-first IELTS Academic learning application that integrates Reading, Writing, Vocabulary, and Grammar into an adaptive learning path based on target band score, assessment results, and stored weaknesses."
+[project_ielts_role]
+other = "Full-stack Developer"
+[project_ielts_responsibility_1]
+other = "Designed and developed an adaptive IELTS learning system covering Reading, Writing, Grammar, and Vocabulary."
+[project_ielts_responsibility_2]
+other = "Implemented initial assessment, topic mastery tracking, and personalized practice based on learner weaknesses."
+[project_ielts_responsibility_3]
+other = "Built vocabulary learning features with AI-generated suggestions, spaced repetition (SRS), and practice exercises."
+[project_ielts_responsibility_4]
+other = "Integrated AI providers for generating Reading/Writing tasks and providing Writing feedback with retry queue handling."
+[project_ielts_responsibility_5]
+other = "Developed progress tracking, consolidation tests, topic unlocking logic, and automated tests with 152 passing test cases."
+[project_VTC]
+other = "A web application built using the MVC architecture to manage martial arts tournaments, participants, match scoring, online registration, player rankings using the ELO rating system, and other core tournament operations."
+[project_tech_stack]
+other = "Tech Stack"
+[project_role]
+other = "Role"
+[project_vtc_role]
+other = "Full-stack Developer"
+[project_responsibilities]
+other = "Responsibilities / Achievements"
+[project_vtc_responsibility_1]
+other = "Designed and developed the tournament management system using ASP.NET Core MVC."
+[project_vtc_responsibility_2]
+other = "Developed tournament, participant, match, scoring, and online registration features."
+[project_vtc_responsibility_3]
+other = "Implemented the ELO rating algorithm for player ranking and automatic ranking updates."
+[project_vtc_responsibility_4]
+other = "Designed and managed the SQL Server database and application data models."
+[project_vtc_responsibility_5]
+other = "Integrated ML.NET for match outcome prediction based on historical match data and player rankings."
+[view_details]
+other = "View details"
+[milestones_label]
+other = "MILESTONES"
+[milestones_title]
+other = "Learning by"
+[milestones_title_accent]
+other = "doing."
+[milestone_2023]
+other = "Started the journey"
+[milestone_gpa]
+other = "Cumulative GPA"
+[milestone_gpa_detail]
+other = "Academic performance"
+[milestone_excellent_student]
+other = "Excellent student"
+[milestone_excellent_student_detail]
+other = "Multiple consecutive years"
+[milestone_2025]
+other = "Building for real"
+[contact_label]
+other = "CONTACT"
+[contact_title]
+other = "Let's build"
+[contact_title_accent]
+other = "together."
+[contact_lead]
+other = "Have an idea, an opportunity, or simply want to talk about technology? Send me a message."
+[form_name]
+other = "Name"
+[form_name_placeholder]
+other = "Your name"
+[form_message]
+other = "Message"
+[form_message_placeholder]
+other = "Tell me about your idea..."
+[form_send]
+other = "Send message"
+[footer_text]
+other = "Built with curiosity and clean code."

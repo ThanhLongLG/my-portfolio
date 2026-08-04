@@ -1,0 +1,138 @@
+[nav_about]
+other = "Giới thiệu"
+[nav_skills]
+other = "Kỹ năng"
+[nav_projects]
+other = "Dự án"
+[nav_awards]
+other = "Dấu mốc"
+[nav_contact]
+other = "Liên hệ"
+[language_switcher]
+other = "Chọn ngôn ngữ"
+[theme_toggle]
+other = "Đổi giao diện"
+[menu_open]
+other = "Mở menu"
+[hero_eyebrow]
+other = "XIN CHÀO, MÌNH LÀ LONG"
+[hero_title]
+other = "Xin chào, mình là Trần"
+[hero_name]
+other = "Thanh Long."
+[roles]
+other = "Lập trình viên Full-Stack|Lập trình viên .NET|Lập trình viên Backend"
+[role_initial]
+other = "Lập trình viên Full-Stack"
+[hero_lead]
+other = "Mình xây dựng những sản phẩm web rõ ràng, hữu ích và có nền tảng kỹ thuật vững chắc — từ ý tưởng đến trải nghiệm hoàn chỉnh."
+[view_projects]
+other = "Xem dự án"
+[download_cv]
+other = "Tải CV"
+[portrait_alt]
+other = "Ảnh chân dung Trần Thanh Long"
+[code_label]
+other = "xây dựng tương lai, từng dòng code một"
+[about_label]
+other = "GIỚI THIỆU"
+[about_title]
+other = "Một chút"
+[about_title_accent]
+other = "về mình."
+[about_p1]
+other = "Mình là một developer yêu thích việc biến những bài toán phức tạp thành trải nghiệm đơn giản, dễ dùng. Mình quan tâm đến cả chi tiết giao diện lẫn cách hệ thống vận hành phía sau."
+[about_p2]
+other = "Hiện tại, mình học hỏi mỗi ngày qua các dự án cá nhân, workshop và những lần tự tay xây dựng sản phẩm từ con số 0."
+[base_label]
+other = "ĐỊA ĐIỂM"
+[base_value]
+other = "Việt Nam"
+[focus_label]
+other = "TRỌNG TÂM"
+[toolkit_label]
+other = "CÔNG CỤ"
+[skills_title]
+other = "Năng lực"
+[skills_title_accent]
+other = "kỹ thuật."
+[work_label]
+other = "DỰ ÁN TIÊU BIỂU"
+[projects_title]
+other = "Một vài dự án"
+[projects_title_accent]
+other = "tiêu biểu."
+[project_portfolio]
+other = "Ứng dụng học IELTS Academic theo hướng local-first, tích hợp Reading, Writing, Vocabulary và Grammar vào lộ trình học thích ứng dựa trên band điểm mục tiêu, kết quả đánh giá và các điểm yếu đã lưu."
+[project_ielts_role]
+other = "Lập trình viên Full-stack"
+[project_ielts_responsibility_1]
+other = "Thiết kế và phát triển hệ thống học IELTS thích ứng, bao gồm Reading, Writing, Grammar và Vocabulary."
+[project_ielts_responsibility_2]
+other = "Triển khai đánh giá đầu vào, theo dõi mức độ thành thạo theo chủ đề và bài luyện tập cá nhân hóa theo điểm yếu của người học."
+[project_ielts_responsibility_3]
+other = "Xây dựng tính năng học từ vựng với gợi ý từ AI, lặp lại ngắt quãng (SRS) và bài tập thực hành."
+[project_ielts_responsibility_4]
+other = "Tích hợp các nhà cung cấp AI để tạo bài Reading/Writing và phản hồi bài Writing với cơ chế hàng đợi thử lại."
+[project_ielts_responsibility_5]
+other = "Phát triển theo dõi tiến độ, bài kiểm tra tổng hợp, logic mở khóa chủ đề và kiểm thử tự động với 152 test thành công."
+[project_VTC]
+other = "Ứng dụng web xây dựng theo kiến trúc MVC để quản lý giải đấu võ thuật, vận động viên, chấm điểm trận đấu, đăng ký trực tuyến, xếp hạng người chơi theo hệ thống ELO và các nghiệp vụ cốt lõi khác của giải đấu."
+[project_tech_stack]
+other = "Công nghệ"
+[project_role]
+other = "Vai trò"
+[project_vtc_role]
+other = "Lập trình viên Full-stack"
+[project_responsibilities]
+other = "Trách nhiệm / Thành tựu"
+[project_vtc_responsibility_1]
+other = "Thiết kế và phát triển hệ thống quản lý giải đấu bằng ASP.NET Core MVC."
+[project_vtc_responsibility_2]
+other = "Phát triển các chức năng giải đấu, vận động viên, trận đấu, chấm điểm và đăng ký trực tuyến."
+[project_vtc_responsibility_3]
+other = "Triển khai thuật toán xếp hạng ELO và tự động cập nhật thứ hạng người chơi."
+[project_vtc_responsibility_4]
+other = "Thiết kế, quản lý cơ sở dữ liệu SQL Server và các mô hình dữ liệu của ứng dụng."
+[project_vtc_responsibility_5]
+other = "Tích hợp ML.NET để dự đoán kết quả trận đấu dựa trên dữ liệu lịch sử và thứ hạng người chơi."
+[view_details]
+other = "Xem chi tiết"
+[milestones_label]
+other = "DẤU MỐC"
+[milestones_title]
+other = "Học hỏi bằng"
+[milestones_title_accent]
+other = "thực hành."
+[milestone_2023]
+other = "Bắt đầu hành trình"
+[milestone_gpa]
+other = "GPA tích lũy"
+[milestone_gpa_detail]
+other = "Kết quả học tập"
+[milestone_excellent_student]
+other = "Sinh viên xuất sắc"
+[milestone_excellent_student_detail]
+other = "Nhiều năm liên tiếp"
+[milestone_2025]
+other = "Xây dựng sản phẩm thực tế"
+[contact_label]
+other = "LIÊN HỆ"
+[contact_title]
+other = "Cùng nhau"
+[contact_title_accent]
+other = "xây dựng."
+[contact_lead]
+other = "Bạn có một ý tưởng, một cơ hội, hay chỉ muốn nói chuyện về công nghệ? Hãy gửi mình một lời nhắn."
+[form_name]
+other = "Tên"
+[form_name_placeholder]
+other = "Tên của bạn"
+[form_message]
+other = "Tin nhắn"
+[form_message_placeholder]
+other = "Hãy chia sẻ ý tưởng của bạn..."
+[form_send]
+other = "Gửi tin nhắn"
+[footer_text]
+other = "Được xây dựng bằng sự tò mò và mã nguồn gọn gàng."

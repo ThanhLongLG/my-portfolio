@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ .Site.Params.description | default .Site.Title }}">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/mobile.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/override.css" | relURL }}">
+</head>
+<body>
+  {{ partial "header.html" . }}
+  {{ if .IsHome }}
+    {{ block "main" . }}{{ end }}
+  {{ else }}
+    <main class="page-shell"><div class="wrap">{{ block "main" . }}{{ end }}</div></main>
+  {{ end }}
+  {{ if not .IsHome }}{{ partial "footer.html" . }}{{ end }}
+  <script src="{{ "js/site.js" | relURL }}" defer></script>
+</body>
+</html>

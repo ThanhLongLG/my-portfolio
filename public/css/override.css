@@ -1,0 +1,26 @@
+/* Override header logo color, weight, and size. */
+.logo{color:#ff6b6b;font-weight:700;font-size:15px}
+.logo-dot{background:#ffd166; /* change dot color here */}
+
+/* If you want the `.dev` part dimmer, adjust .dim */
+.dim{color:#99a8c6}
+
+/* Use calmer, darker tones for the logo on the light theme. */
+html.light .logo{color:#236477}
+html.light .logo-dot{background:#b7791f}
+html.light .dim{color:#6b7f95}
+
+/* Save this file and run `hugo` to rebuild the site */
+
+/* Let the portrait become the full rectangular visual of the profile card. */
+.profile-card{position:relative;overflow:hidden;min-height:460px}
+.avatar-orbit{width:100% !important;height:460px !important;min-height:460px;border:0 !important;border-radius:0 !important;display:block;transform:none !important;box-shadow:none !important}
+.avatar{display:block;object-fit:cover;object-position:center;width:100% !important;height:460px !important;min-height:460px;border:0 !important;border-radius:0 !important;transform:none !important;box-shadow:none !important}
+.code-label{position:absolute;left:0;right:0;bottom:0;margin:0;padding:24px 25px 18px;text-align:left;background:linear-gradient(transparent,#081426e8);color:#d4e3f5}
+.orbit-dot{display:none}
+
+.project-details{color:var(--muted);font-size:14px}
+.project-details p{margin:12px 0}
+.project-details strong{color:var(--text)}
+.project-details ul{margin:8px 0 0;padding-left:20px}
+.project-details li{margin:6px 0}

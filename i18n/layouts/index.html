@@ -1,0 +1,140 @@
+{{ define "main" }}
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">{{ i18n "hero_eyebrow" }}</div>
+        <h1>{{ i18n "hero_title" }}<br><span>{{ i18n "hero_name" }}</span></h1>
+        <div class="role"><span id="typing-role" data-roles="{{ i18n "roles" }}">{{ i18n "role_initial" }}</span><i>_</i></div>
+        <p class="lead">{{ i18n "hero_lead" }}</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">{{ i18n "view_projects" }} ↗</a>
+          <a class="btn" href="{{ "files/Cv.pdf" | relURL }}">{{ i18n "download_cv" }} ↓</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com" aria-label="GitHub">GH</a>
+          <a href="" aria-label="LinkedIn">in</a>
+          <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=ttlong24092le4%40gmail.com" aria-label="Email">@</a>
+        </div>
+      </div>
+      <div class="profile-card">
+        <div class="avatar-orbit">
+          <img class="avatar" src="{{ "images/avt.jpg" | relURL }}" alt="{{ i18n "portrait_alt" }}" loading="eager">
+          <span class="orbit-dot one"></span>
+          <span class="orbit-dot two"></span>
+        </div>
+        <div class="code-label">// {{ i18n "code_label" }}</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-kicker">01 / {{ i18n "about_label" }}</div>
+      <div class="about-grid">
+        <div><h2>{{ i18n "about_title" }}<br><span>{{ i18n "about_title_accent" }}</span></h2></div>
+        <div class="copy">
+          <p>{{ i18n "about_p1" }}</p>
+          <p>{{ i18n "about_p2" }}</p>
+          <div class="facts">
+            <div><small>{{ i18n "base_label" }}</small><strong>{{ i18n "base_value" }}</strong></div>
+            <div><small>{{ i18n "focus_label" }}</small><strong>Web · app</strong></div>
+            <div><small>EMAIL</small><strong>ttlong24092le4@gmail.com</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="alt">
+    <div class="wrap">
+      <div class="section-kicker">02 / {{ i18n "toolkit_label" }}</div>
+      <h2>{{ i18n "skills_title" }}<br><span>{{ i18n "skills_title_accent" }}</span></h2>
+      <div class="skills">
+        <div><small>BACKEND</small><p><b>◆</b> C# &nbsp; <b>◆</b> .NET<br><b>◆</b> ASP.NET Core<br><b>◆</b> REST API <br><b>◆</b> </b> Python</p></div>
+        <div><small>DATABASE</small><p><b>◆</b> SQL Server & Oracle<br><b>◆</b> PostgreSQL<br><b>◆</b> Entity Framework</p></div>
+        <div><small>TOOLS &amp; FRONTEND</small><p><b>◆</b> JavaScript <br><b>◆</b> Git &amp; GitHub<br><b>◆</b> Docker</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-kicker">03 / {{ i18n "work_label" }}</div>
+      <h2>{{ i18n "projects_title" }}<br><span>{{ i18n "projects_title_accent" }}</span></h2>
+      <div class="projects">
+        <article>
+          <div class="project-meta">01 / IELTS LEARNING</div>
+          <h3>Vở Luyện Anh – Adaptive IELTS Learning Platform</h3>
+          <p>{{ i18n "project_portfolio" }}</p>
+          <div class="project-details">
+            <p><strong>{{ i18n "project_tech_stack" }}:</strong> Python, Flask, SQLAlchemy, SQLite, JavaScript, Jinja2, AI APIs.</p>
+            <p><strong>{{ i18n "project_role" }}:</strong> {{ i18n "project_ielts_role" }}</p>
+            <strong>{{ i18n "project_responsibilities" }}:</strong>
+            <ul>
+              <li>{{ i18n "project_ielts_responsibility_1" }}</li>
+              <li>{{ i18n "project_ielts_responsibility_2" }}</li>
+              <li>{{ i18n "project_ielts_responsibility_3" }}</li>
+              <li>{{ i18n "project_ielts_responsibility_4" }}</li>
+              <li>{{ i18n "project_ielts_responsibility_5" }}</li>
+            </ul>
+          </div>
+          <div class="tags">PYTHON <b>·</b> FLASK <b>·</b> SQLITE <b>·</b> AI APIS</div>
+          <a href="#contact">{{ i18n "view_details" }} ↗</a>
+        </article>
+        <article>
+          <div class="project-meta">02 / VTC SCORE</div>
+          <h3>Smart Scoring System for Vietnamese Traditional Martial Arts</h3>
+          <p>{{ i18n "project_VTC" }}</p>
+          <div class="project-details">
+            <p><strong>{{ i18n "project_tech_stack" }}:</strong> ASP.NET Core MVC, C#, SQL Server, JavaScript, ML.NET.</p>
+            <p><strong>{{ i18n "project_role" }}:</strong> {{ i18n "project_vtc_role" }}</p>
+            <strong>{{ i18n "project_responsibilities" }}:</strong>
+            <ul>
+              <li>{{ i18n "project_vtc_responsibility_1" }}</li>
+              <li>{{ i18n "project_vtc_responsibility_2" }}</li>
+              <li>{{ i18n "project_vtc_responsibility_3" }}</li>
+              <li>{{ i18n "project_vtc_responsibility_4" }}</li>
+              <li>{{ i18n "project_vtc_responsibility_5" }}</li>
+            </ul>
+          </div>
+          <div class="tags">ASP.NET CORE MVC <b>·</b> C# <b>·</b> SQL SERVER <b>·</b> ML.NET</div>
+          <a href="#contact">{{ i18n "view_details" }} ↗</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="awards" class="alt">
+    <div class="wrap">
+      <div class="section-kicker">04 / {{ i18n "milestones_label" }}</div>
+      <h2>{{ i18n "milestones_title" }}<br><span>{{ i18n "milestones_title_accent" }}</span></h2>
+      <div class="awards">
+        <div><strong>3,59</strong><span>★</span><p>{{ i18n "milestone_gpa" }}<br><small>{{ i18n "milestone_gpa_detail" }}</small></p></div>
+        <div><strong>2023–2026</strong><span>★</span><p>{{ i18n "milestone_excellent_student" }}<br><small>{{ i18n "milestone_excellent_student_detail" }}</small></p></div>
+        <div><strong>2025</strong><span>★</span><p>{{ i18n "milestone_2025" }}<br><small>Full-stack projects</small></p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <div class="section-kicker">05 / {{ i18n "contact_label" }}</div>
+        <h2>{{ i18n "contact_title" }}<br><span>{{ i18n "contact_title_accent" }}</span></h2>
+        <p class="lead">{{ i18n "contact_lead" }}</p>
+        <div class="contact-links">
+          <a href="mailto:hello@example.com">✉ &nbsp; ttlong24092le4@gmail.com</a>
+          <a href="tel:+84000000000">☎ &nbsp; +84 917 968 233</a>
+        </div>
+      </div>
+      <form class="contact-form" data-email-recipient="ttlong24092le4@gmail.com">
+        <label>{{ i18n "form_name" }}<input type="text" name="name" placeholder="{{ i18n "form_name_placeholder" }}" required></label>
+        <label>Email<input type="email" name="email" placeholder="you@email.com" required></label>
+        <label>{{ i18n "form_message" }}<textarea name="message" rows="4" placeholder="{{ i18n "form_message_placeholder" }}" required></textarea></label>
+        <button class="btn primary" type="submit">{{ i18n "form_send" }} ↗</button>
+      </form>
+    </div>
+  </section>
+</main>
+{{ end }}
