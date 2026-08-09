@@ -77,7 +77,7 @@ other = "Tích hợp các nhà cung cấp AI để tạo bài Reading/Writing v�
 [project_ielts_responsibility_5]
 other = "Phát triển theo dõi tiến độ, bài kiểm tra tổng hợp, logic mở khóa chủ đề và kiểm thử tự động với 152 test thành công."
 [project_VTC]
-other = "Ứng dụng web xây dựng theo kiến trúc MVC để quản lý giải đấu võ thuật, vận động viên, chấm điểm trận đấu, đăng ký trực tuyến, xếp hạng người chơi theo hệ thống ELO và các nghiệp vụ cốt lõi khác của giải đấu."
+other = "Hệ thống web hỗ trợ quản lý giải đấu Võ Cổ Truyền: lập sơ đồ và lịch trận, chấm điểm, tra cứu kết quả, xếp hạng, dự đoán kết quả và tin tức công khai."
 [project_tech_stack]
 other = "Công nghệ"
 [project_role]
@@ -89,13 +89,13 @@ other = "Trách nhiệm / Thành tựu"
 [project_vtc_responsibility_1]
 other = "Thiết kế và phát triển hệ thống quản lý giải đấu bằng ASP.NET Core MVC."
 [project_vtc_responsibility_2]
-other = "Phát triển các chức năng giải đấu, vận động viên, trận đấu, chấm điểm và đăng ký trực tuyến."
+other = "Xây dựng luồng quản lý giải đấu, võ sinh, sơ đồ thi đấu, lịch trận và trạng thái trận đấu."
 [project_vtc_responsibility_3]
-other = "Triển khai thuật toán xếp hạng ELO và tự động cập nhật thứ hạng người chơi."
+other = "Phát triển màn hình chấm điểm với đồng hồ hiệp, cộng/trừ điểm và các phương thức kết thúc trận."
 [project_vtc_responsibility_4]
-other = "Thiết kế, quản lý cơ sở dữ liệu SQL Server và các mô hình dữ liệu của ứng dụng."
+other = "Tổ chức dữ liệu giải đấu, kết quả, ranking và tin tức trên nền tảng cơ sở dữ liệu của hệ thống."
 [project_vtc_responsibility_5]
-other = "Tích hợp ML.NET để dự đoán kết quả trận đấu dựa trên dữ liệu lịch sử và thứ hạng người chơi."
+other = "Tích hợp ML.NET để dự đoán kết quả tham khảo từ dữ liệu trận đấu và ranking hiện có."
 [view_details]
 other = "Xem chi tiết"
 [milestones_label]

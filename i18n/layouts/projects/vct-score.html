@@ -1,0 +1,108 @@
+{{ define "main" }}
+{{ $isVi := eq .Site.Language.Lang "vi" }}
+{{ $home := .Site.Home.RelPermalink }}
+<main class="project-case-study">
+  <section class="case-hero">
+    <div class="wrap">
+      <a class="case-back" href="{{ $home }}#projects">← {{ if $isVi }}Quay lại danh sách dự án{{ else }}Back to projects{{ end }}</a>
+      <div class="case-hero-grid">
+        <div class="case-intro">
+          <p class="section-kicker">02 / CASE STUDY</p>
+          <h1><span>VCT</span><br>Score.</h1>
+          <p class="case-lead">{{ if $isVi }}Hệ thống web hỗ trợ vận hành giải đấu và chấm điểm Võ Cổ Truyền — từ khởi tạo giải, lập sơ đồ, sinh lịch trận đến công bố kết quả.{{ else }}A web system for Vietnamese Traditional Martial Arts tournaments — from tournament setup and bracket planning to scoring and published results.{{ end }}</p>
+          <div class="case-actions">
+            <a class="btn primary" href="#flow">{{ if $isVi }}Khám phá hệ thống{{ else }}Explore the system{{ end }} ↓</a>
+            <a class="btn" href="#screens">{{ if $isVi }}Xem giao diện{{ else }}View interfaces{{ end }} →</a>
+          </div>
+        </div>
+        <figure class="case-cover">
+          <img src="{{ "images/VTCscore/Giaodien.png" | relURL }}" alt="{{ if $isVi }}Trang chủ VCT Score{{ else }}VCT Score home page{{ end }}" fetchpriority="high">
+          <figcaption>// {{ if $isVi }}trang công khai của VCT Score{{ else }}VCT Score public interface{{ end }}</figcaption>
+        </figure>
+      </div>
+      <dl class="case-facts">
+        <div><dt>{{ if $isVi }}VAI TRÒ{{ else }}ROLE{{ end }}</dt><dd>Full-stack Developer</dd></div>
+        <div><dt>{{ if $isVi }}NỀN TẢNG{{ else }}PLATFORM{{ end }}</dt><dd>ASP.NET Core MVC</dd></div>
+        <div><dt>{{ if $isVi }}DỮ LIỆU{{ else }}DATA{{ end }}</dt><dd>SQL Server / Oracle</dd></div>
+        <div><dt>{{ if $isVi }}PHÂN TÍCH{{ else }}ANALYTICS{{ end }}</dt><dd>ML.NET</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="case-section" id="overview">
+    <div class="wrap case-two-column">
+      <div><p class="section-kicker">01 / {{ if $isVi }}TỔNG QUAN{{ else }}OVERVIEW{{ end }}</p><h2>{{ if $isVi }}Một luồng vận hành<br><span>liền mạch.</span>{{ else }}One connected<br><span>operational flow.</span>{{ end }}</h2></div>
+      <div class="case-copy">
+        <p>{{ if $isVi }}VCT Score kết nối những người tham gia trong một giải đấu: khách truy cập theo dõi thông tin công khai, võ sinh duy trì hồ sơ, trọng tài chấm điểm trận và quản trị viên điều phối toàn bộ dữ liệu.{{ else }}VCT Score connects everyone involved in a tournament: visitors follow public information, martial artists maintain their profiles, referees score matches, and administrators coordinate all data.{{ end }}</p>
+        <p>{{ if $isVi }}Thiết kế tập trung vào dữ liệu rõ ràng và trạng thái trận đấu nhất quán, để lịch thi đấu, điểm số, kết quả, ranking và nội dung truyền thông luôn được liên kết trong cùng một hệ thống.{{ else }}The design focuses on clear data and consistent match state, keeping schedules, scores, results, rankings, and public communications connected in one system.{{ end }}</p>
+        <div class="case-tech-tags"><span>ASP.NET CORE MVC</span><span>C#</span><span>JAVASCRIPT</span><span>SQL SERVER / ORACLE</span><span>ML.NET</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section case-alt" id="flow">
+    <div class="wrap">
+      <p class="section-kicker">02 / {{ if $isVi }}QUY TRÌNH{{ else }}WORKFLOW{{ end }}</p>
+      <h2>{{ if $isVi }}Từ giải đấu<br><span>đến kết quả.</span>{{ else }}From tournament<br><span>to result.</span>{{ end }}</h2>
+      <ol class="case-flow">
+        <li><span>01</span><div><h3>{{ if $isVi }}Khởi tạo dữ liệu{{ else }}Set up data{{ end }}</h3><p>{{ if $isVi }}Admin tạo giải; người dùng đăng ký, cập nhật hồ sơ võ sinh và xác định loại hình thi đấu.{{ else }}Admins create tournaments; users register, update martial-artist profiles, and define the competition type.{{ end }}</p></div></li>
+        <li><span>02</span><div><h3>{{ if $isVi }}Lập sơ đồ thi đấu{{ else }}Plan the bracket{{ end }}</h3><p>{{ if $isVi }}Chọn giải, thể thức loại trực tiếp hoặc vòng tròn, vận động viên, hạng cân, sân, trọng tài, thời điểm và khoảng cách giữa các trận.{{ else }}Select the tournament, knockout or round-robin format, competitors, weight class, venue, referee, start time, and interval between matches.{{ end }}</p></div></li>
+        <li><span>03</span><div><h3>{{ if $isVi }}Sinh lịch trận{{ else }}Generate the schedule{{ end }}</h3><p>{{ if $isVi }}Hệ thống tạo cặp đấu, sắp xếp thời gian và lưu mã trận, vòng đấu cùng trạng thái trận.{{ else }}The system generates matchups, schedules their times, and saves each match code, round, and status.{{ end }}</p></div></li>
+        <li><span>04</span><div><h3>{{ if $isVi }}Theo dõi công khai{{ else }}Follow publicly{{ end }}</h3><p>{{ if $isVi }}Người dùng xem lịch, thông tin hai võ sĩ và tỷ lệ dự đoán; thao tác chấm điểm chỉ hiển thị khi có quyền.{{ else }}Users view schedules, both competitors' information, and prediction rates; scoring controls appear only with permission.{{ end }}</p></div></li>
+        <li><span>05</span><div><h3>{{ if $isVi }}Chấm điểm trận đấu{{ else }}Score the match{{ end }}</h3><p>{{ if $isVi }}Trọng tài theo dõi đồng hồ hiệp, cộng hoặc trừ điểm, chọn phương thức kết thúc và gửi kết quả.{{ else }}Referees run the round timer, adjust points, choose an ending method, and submit the result.{{ end }}</p></div></li>
+        <li><span>06</span><div><h3>{{ if $isVi }}Cập nhật kết quả{{ else }}Update results{{ end }}</h3><p>{{ if $isVi }}Hệ thống lưu điểm, xác định thắng/thua, đổi trạng thái đã chấm và cập nhật danh sách kết quả.{{ else }}The system saves scores, determines wins and losses, marks the match as scored, and updates the result list.{{ end }}</p></div></li>
+        <li><span>07</span><div><h3>{{ if $isVi }}Xếp hạng &amp; dự đoán{{ else }}Rank &amp; predict{{ end }}</h3><p>{{ if $isVi }}Dữ liệu trận phục vụ tra cứu, thống kê, ranking và mô hình ML.NET dự đoán kết quả tham khảo.{{ else }}Match data supports lookup, reporting, rankings, and ML.NET reference outcome predictions.{{ end }}</p></div></li>
+        <li><span>08</span><div><h3>{{ if $isVi }}Truyền thông{{ else }}Communicate{{ end }}</h3><p>{{ if $isVi }}Admin tạo, xuất bản và đặt thời hạn hiển thị tin tức; người dùng đọc tin tại trang công khai.{{ else }}Admins create, publish, and set the visibility period for news; users read it on public pages.{{ end }}</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="case-section" id="screens">
+    <div class="wrap">
+      <p class="section-kicker">03 / {{ if $isVi }}GIAO DIỆN{{ else }}INTERFACES{{ end }}</p>
+      <h2>{{ if $isVi }}Thông tin đúng người,<br><span>đúng thời điểm.</span>{{ else }}The right information,<br><span>at the right moment.</span>{{ end }}</h2>
+      <div class="case-showcase-grid">
+        <figure class="showcase-card showcase-wide"><img src="{{ "images/VTCscore/Lịchthidau.png" | relURL }}" alt="{{ if $isVi }}Lịch thi đấu VCT Score{{ else }}VCT Score match schedule{{ end }}" loading="lazy"><figcaption><b>{{ if $isVi }}Lịch thi đấu công khai{{ else }}Public schedule{{ end }}</b><span>{{ if $isVi }}Trận đấu, trạng thái, võ sĩ, sân và tỷ lệ dự đoán.{{ else }}Matches, state, competitors, venue, and prediction percentages.{{ end }}</span></figcaption></figure>
+        <figure class="showcase-card"><img src="{{ "images/VTCscore/Sodothidau.png" | relURL }}" alt="{{ if $isVi }}Thiết lập sơ đồ thi đấu{{ else }}Tournament bracket setup{{ end }}" loading="lazy"><figcaption><b>{{ if $isVi }}Sơ đồ thi đấu{{ else }}Bracket setup{{ end }}</b><span>{{ if $isVi }}Thiết lập thể thức, vận động viên và thời gian.{{ else }}Configure the format, competitors, and time.{{ end }}</span></figcaption></figure>
+        <figure class="showcase-card"><img src="{{ "images/VTCscore/giaodienadmin.png" | relURL }}" alt="{{ if $isVi }}Bảng điều hành quản trị{{ else }}Administration dashboard{{ end }}" loading="lazy"><figcaption><b>{{ if $isVi }}Bảng điều hành admin{{ else }}Admin dashboard{{ end }}</b><span>{{ if $isVi }}Theo dõi người dùng, giải đấu và trận đấu.{{ else }}Track users, tournaments, and matches.{{ end }}</span></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-section case-alt" id="scoring">
+    <div class="wrap scoring-layout">
+      <div class="case-copy">
+        <p class="section-kicker">04 / {{ if $isVi }}TRỌNG TÂM{{ else }}CORE MODULE{{ end }}</p>
+        <h2>{{ if $isVi }}Chấm điểm<br><span>theo thời gian thực.</span>{{ else }}Score<br><span>in real time.</span>{{ end }}</h2>
+        <p>{{ if $isVi }}Màn hình chấm điểm đưa các dữ liệu cần thiết về một nơi: đồng hồ hiệp, hồ sơ hai võ sĩ, điểm hiện tại và các thao tác xử lý kết quả. Điều này giúp trọng tài tập trung vào diễn biến trận đấu.{{ else }}The scoring screen brings the needed information together: round timer, both competitors' profiles, current score, and result controls. It lets referees focus on the match.{{ end }}</p>
+        <ul class="case-checklist">
+          <li>{{ if $isVi }}Đồng hồ hiệp với bắt đầu, tạm dừng và đặt lại.{{ else }}Round timer with start, pause, and reset.{{ end }}</li>
+          <li>{{ if $isVi }}Cộng/trừ điểm và cảnh cáo cho từng võ sĩ.{{ else }}Per-competitor score adjustments and warnings.{{ end }}</li>
+          <li>{{ if $isVi }}Ghi nhận TD-TH, WO, KO, DISQ, Ưu thế hoặc RSC.{{ else }}Record TD-TH, WO, KO, DISQ, Advantage, or RSC.{{ end }}</li>
+          <li>{{ if $isVi }}Lưu kết quả và chuyển dữ liệu sang module kết quả/ranking.{{ else }}Save results and pass data to results/ranking.{{ end }}</li>
+        </ul>
+      </div>
+      <figure class="score-screen"><img src="{{ "images/VTCscore/Chamdiem.png" | relURL }}" alt="{{ if $isVi }}Giao diện chấm điểm trận đấu{{ else }}Match scoring interface{{ end }}" loading="lazy"></figure>
+    </div>
+  </section>
+
+  <section class="case-section" id="management">
+    <div class="wrap">
+      <p class="section-kicker">05 / {{ if $isVi }}VẬN HÀNH &amp; DỮ LIỆU{{ else }}OPERATIONS &amp; DATA{{ end }}</p>
+      <div class="case-capabilities">
+        <article><span>01</span><h3>{{ if $isVi }}Quản trị tập trung{{ else }}Central administration{{ end }}</h3><p>{{ if $isVi }}Khu vực admin quản lý người dùng, giải đấu, sơ đồ, trận đấu, kết quả và tin tức.{{ else }}The admin area manages users, tournaments, brackets, matches, results, and news.{{ end }}</p></article>
+        <article><span>02</span><h3>{{ if $isVi }}Kết quả &amp; ranking{{ else }}Results &amp; ranking{{ end }}</h3><p>{{ if $isVi }}Kết quả đã chấm là dữ liệu đầu vào cho tra cứu, thống kê và xếp hạng; với nội dung Đối Kháng, hệ thống có thể sử dụng kết quả để cập nhật Elo/ranking.{{ else }}Scored results feed lookup, reporting, and rankings; for sparring, the system can use outcomes to update Elo/ranking.{{ end }}</p></article>
+        <article><span>03</span><h3>{{ if $isVi }}Dự đoán tham khảo{{ else }}Reference predictions{{ end }}</h3><p>{{ if $isVi }}ML.NET phân tích dữ liệu trận và ranking hiện có để hiển thị tỷ lệ chiến thắng tham khảo, không thay thế quyết định thi đấu.{{ else }}ML.NET analyses available match and ranking data to display reference win probabilities; it never replaces the actual decision.{{ end }}</p></article>
+      </div>
+      <div class="case-showcase-grid case-showcase-bottom">
+        <figure class="showcase-card"><img src="{{ "images/VTCscore/Dudoanketqua.png" | relURL }}" alt="{{ if $isVi }}Dự đoán kết quả bằng ML.NET{{ else }}ML.NET outcome prediction{{ end }}" loading="lazy"><figcaption><b>{{ if $isVi }}Dự đoán kết quả{{ else }}Outcome prediction{{ end }}</b><span>ML.NET · {{ if $isVi }}dữ liệu trận &amp; ranking{{ else }}match &amp; ranking data{{ end }}</span></figcaption></figure>
+        <figure class="showcase-card"><img src="{{ "images/VTCscore/Quanlytintuc.png" | relURL }}" alt="{{ if $isVi }}Quản lý tin tức{{ else }}News management{{ end }}" loading="lazy"><figcaption><b>{{ if $isVi }}Tin tức công khai{{ else }}Public news{{ end }}</b><span>{{ if $isVi }}Tạo, xuất bản và kiểm soát thời hạn hiển thị.{{ else }}Create, publish, and control visibility duration.{{ end }}</span></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="case-closing">
+    <div class="wrap"><p class="section-kicker">VCT SCORE / 2025</p><h2>{{ if $isVi }}Minh bạch hơn<br><span>trong từng trận đấu.</span>{{ else }}More clarity<br><span>in every match.</span>{{ end }}</h2><a class="btn primary" href="{{ $home }}#projects">← {{ if $isVi }}Xem các dự án khác{{ else }}View other projects{{ end }}</a></div>
+  </section>
+</main>
+{{ end }}

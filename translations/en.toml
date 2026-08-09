@@ -77,7 +77,7 @@ other = "Integrated AI providers for generating Reading/Writing tasks and provid
 [project_ielts_responsibility_5]
 other = "Developed progress tracking, consolidation tests, topic unlocking logic, and automated tests with 152 passing test cases."
 [project_VTC]
-other = "A web application built using the MVC architecture to manage martial arts tournaments, participants, match scoring, online registration, player rankings using the ELO rating system, and other core tournament operations."
+other = "A web system for Vietnamese Traditional Martial Arts tournaments: bracket and schedule planning, scoring, results lookup, rankings, outcome prediction, and public news."
 [project_tech_stack]
 other = "Tech Stack"
 [project_role]
@@ -89,13 +89,13 @@ other = "Responsibilities / Achievements"
 [project_vtc_responsibility_1]
 other = "Designed and developed the tournament management system using ASP.NET Core MVC."
 [project_vtc_responsibility_2]
-other = "Developed tournament, participant, match, scoring, and online registration features."
+other = "Built tournament, martial artist, bracket, scheduling, and match-status workflows."
 [project_vtc_responsibility_3]
-other = "Implemented the ELO rating algorithm for player ranking and automatic ranking updates."
+other = "Developed the scoring interface with a round timer, score adjustments, and match-ending methods."
 [project_vtc_responsibility_4]
-other = "Designed and managed the SQL Server database and application data models."
+other = "Organized tournament, result, ranking, and news data for the system."
 [project_vtc_responsibility_5]
-other = "Integrated ML.NET for match outcome prediction based on historical match data and player rankings."
+other = "Integrated ML.NET for reference outcome predictions from available match and ranking data."
 [view_details]
 other = "View details"
 [milestones_label]
