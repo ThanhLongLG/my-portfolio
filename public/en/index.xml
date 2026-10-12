@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tran Thanh Long — Portfolio</title>
-		<link>http://localhost:63051/my-portfolio/en/</link>
+		<link>http://localhost:1313/en/</link>
 		<description>Recent content on Tran Thanh Long — Portfolio</description>
 		<generator>Hugo</generator>
 		<language>en-US</language>
@@ -10,19 +10,19 @@
 		
 		
 		
-			<atom:link href="http://localhost:63051/my-portfolio/en/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>VCT Score — Vietnamese Traditional Martial Arts Scoring System</title>
-				<link>http://localhost:63051/my-portfolio/en/projects/vct-score/</link>
+				<link>http://localhost:1313/en/projects/vct-score/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:63051/my-portfolio/en/projects/vct-score/</guid>
+				<guid>http://localhost:1313/en/projects/vct-score/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Vở Luyện Anh — IELTS Academic Self-study Assistant</title>
-				<link>http://localhost:63051/my-portfolio/en/projects/vo-luyen-anh/</link>
+				<link>http://localhost:1313/en/projects/vo-luyen-anh/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:63051/my-portfolio/en/projects/vo-luyen-anh/</guid>
+				<guid>http://localhost:1313/en/projects/vo-luyen-anh/</guid>
 				<description></description>
 			</item>
 	</channel>

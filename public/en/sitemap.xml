@@ -2,76 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:63051/my-portfolio/en/categories/</loc>
+    <loc>http://localhost:1313/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi-VN"
-                href="http://localhost:63051/my-portfolio/vi/categories/"
+                href="http://localhost:1313/vi/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:63051/my-portfolio/en/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:63051/my-portfolio/en/projects/</loc>
+    <loc>http://localhost:1313/en/projects/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi-VN"
-                href="http://localhost:63051/my-portfolio/vi/projects/"
+                href="http://localhost:1313/vi/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:63051/my-portfolio/en/projects/"
+                href="http://localhost:1313/en/projects/"
                 />
   </url><url>
-    <loc>http://localhost:63051/my-portfolio/en/tags/</loc>
+    <loc>http://localhost:1313/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi-VN"
-                href="http://localhost:63051/my-portfolio/vi/tags/"
+                href="http://localhost:1313/vi/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:63051/my-portfolio/en/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
   </url><url>
-    <loc>http://localhost:63051/my-portfolio/en/</loc>
+    <loc>http://localhost:1313/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi-VN"
-                href="http://localhost:63051/my-portfolio/vi/"
+                href="http://localhost:1313/vi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:63051/my-portfolio/en/"
+                href="http://localhost:1313/en/"
                 />
   </url><url>
-    <loc>http://localhost:63051/my-portfolio/en/projects/vct-score/</loc>
+    <loc>http://localhost:1313/en/projects/vct-score/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi-VN"
-                href="http://localhost:63051/my-portfolio/vi/projects/vct-score/"
+                href="http://localhost:1313/vi/projects/vct-score/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:63051/my-portfolio/en/projects/vct-score/"
+                href="http://localhost:1313/en/projects/vct-score/"
                 />
   </url><url>
-    <loc>http://localhost:63051/my-portfolio/en/projects/vo-luyen-anh/</loc>
+    <loc>http://localhost:1313/en/projects/vo-luyen-anh/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi-VN"
-                href="http://localhost:63051/my-portfolio/vi/projects/vo-luyen-anh/"
+                href="http://localhost:1313/vi/projects/vo-luyen-anh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="http://localhost:63051/my-portfolio/en/projects/vo-luyen-anh/"
+                href="http://localhost:1313/en/projects/vo-luyen-anh/"
                 />
   </url>
 </urlset>
